@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   float a,b;
+    cout<<"enter two number:";
+    cin>>a>>b;
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    cout<<"swap values of two int variable is a= "<<a << " and b="<<b;
+    return 0;
+}
