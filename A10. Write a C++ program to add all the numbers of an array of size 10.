@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   int i,sum=0,a[10]={10,15,50,30,70,45,25,26,32,1};
+   for(i=0;i<10;i++)
+   {
+    sum=sum+a[i];
+    }
+   cout<<"add all the numbers of an array of size 10 is "<<sum;
+    return 0;
+}
